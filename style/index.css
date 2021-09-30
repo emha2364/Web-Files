@@ -1,0 +1,22 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: #EEE5E9;
+    padding: 0 20%;
+}
+
+h1 {
+    text-align: center;
+    font-size: larger;
+}
+
+p {
+    color: #208AAE;
+    padding: 0 5%;
+}
+
+li {
+    list-style: none;
+}
