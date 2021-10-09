@@ -16,6 +16,19 @@ h1{
   color: rgb(100,100,100);
 }
 
-.background{
+background{
   background-color: rbg(225, 225, 225);
+
+span{
+  color:blue;
+  font-weight:bold;
+
+}
+
+#sit{
+  font-family: cursive;
+}
+
+#dotted{
+  border:dotted rgb(225,225,0) 2px;
 }
