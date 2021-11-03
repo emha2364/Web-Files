@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+<section id="quotesection">
+<h1 id="qtext"> Welcome to the quote macine, click the button to get a quote.<h1>
+<button id="newquote">New Quote</button>
+</section>
+<section id="flex">
+  <div class="flexitem">
+    <h2>one</h2>
+    </div>
+  <div class="flexitem2">
+    <h2>two</h2>
+    </div>
+  </section>
+
+
+<script>
+  const quotes = ["The secret of getting ahead is getting started.", "The best time to plant a tree was 20 years ago. The second best time is now.”, “We need to accept that we won’t always make the right decisions, that we’ll screw up royally sometimes – understanding that failure is not the opposite of success, it’s part of success.", "Do one thing every day that scares you.", "Whatever you are, be a good one.", "Magic is believing in yourself. If you can make that happen, you can make anything happen."];
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount>3){
+      quotecount = 0;
+    }else{
+    quotecount += 1;
+  }
+
+  }
+
+</script>
+
+
+</body>
+
+
+</html>
