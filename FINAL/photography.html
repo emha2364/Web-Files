@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Photography</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+	
+
+<body>
+	
+	<div style="display: flex; align-items: center; padding-left: 50px; padding-top: 50px;">
+	<h1 class="pageTitle">photography</h1>
+		<button id="nextButton"><div></div></button>
+	</div>
+	
+	<div class="assetContainer">
+		<div class="photoColumn">
+			<img alt="photo" src="photos/HippoCampus1.jpg" >
+			<img alt="photo" src="photos/LightPainting-1.jpg" >
+			<img alt="photo" src="photos/LightPainting-2.jpg" >
+			<img alt="photo" src="photos/LightPainting3.jpg" >
+			
+			<img alt="photo" src="photos/SolitudeisBliss1.jpg" >
+			<img alt="photo" src="photos/SolitudeisBliss5.jpg" >
+			<img alt="photo" src="photos/styledshoot3.jpg" >
+			
+			
+		</div>
+		<div class="photoColumn">
+			<img alt="photo" src="photos/HippoCampus2.jpg" >
+			<img alt="photo" src="photos/LoeyDesigns1.jpg" >
+			<img alt="photo" src="photos/LoeyDesigns3.jpg" >
+			<img alt="photo" src="photos/SolitudeisBliss2.jpg" >
+			<img alt="photo" src="photos/styledshoot1.jpg" >
+			
+		</div>
+		<div class="photoColumn">
+			<img alt="photo" src="photos/HippoCampus3.jpg" >
+			
+			<img alt="photo" src="photos/LoeyDesigns2.jpg" >
+			<img alt="photo" src="photos/SolitudeisBliss3.jpg" >
+			<img alt="photo" src="photos/SolitudeisBliss4.jpg" >
+			<img alt="photo" src="photos/styledshoot2.jpg" >
+			
+		</div>
+		
+
+	</div>
+	
+	<div class="backToHomeContainer">
+		<button id="backToHome"><h3>back to home</h3></button>
+	</div>
+	
+<script>
+	
+	document.getElementById("backToHome").onclick = function(){
+		window.location.href = "index.html";
+	};
+	
+	document.getElementById("nextButton").onclick = function(){
+		window.location.href = "videography.html";
+	};
+
+	
+</script>
+</body>
+</html>

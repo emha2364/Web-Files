@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	body{
+		background-color: #9cc39c;
+		overflow-x: hidden;
+		margin: 0;
+	}
+	
+	.fullContainer{
+		width: 100vw;
+		height: 100vh;
+	}
+	
+	h1{
+		font-family: roboto-condensed,sans-serif;
+		font-weight: 300;
+		font-style: normal;
+	}
+	
+	h2{
+		font-family: roboto-condensed, sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+	
+	h3{
+		font-family: roboto-condensed,sans-serif;
+		font-weight: 300;
+		font-style: italic;
+	}
+	
+	h4{
+		font-family: roboto-condensed,sans-serif;
+		font-weight: 400;
+		font-style: italic;
+	}
+	
+	p{
+		font-family: roboto-condensed,sans-serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+.nameTitle{
+	position: absolute; 
+	font-size: 100px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+	
+	.categoryLink{
+		
+		background-color: black;
+		display: flex;
+		color: white;
+		align-items: center;
+		justify-content: center;
+		
+		border: 5px solid #04C000;
+		font-size: 24px;
+		
+	}
+	
+	*, *::before, *::after {
+	  box-sizing: border-box;
+	}
+
+button{
+	cursor: pointer;
+}
+
+#nextButton{
+		background-color: black;
+		border: none;
+		border-radius: 100px;
+	width: 100px; 
+	height: 100px;
+	display: flex;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#nextButton:hover{
+	background-color: #9fb19e;
+}
+
+#nextButton div{
+	background-image: url("assets/right-arrow-green.png");
+	background-size: contain;
+	-o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+#nextButton:hover div{
+	background-image: url("assets/right-arrow-white.png");
+}
+
+.pageTitle{
+	font-size: 40px; 
+	margin-right: 25px;
+	
+}
+
+.assetContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 5px;
+  margin-top: 50px;
+}
+
+.photoColumn {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 5px;
+}
+
+.photoColumn img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.backToHomeContainer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.videoColumn {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 5px;
+}
+
+.videoColumn div{
+	padding-bottom: 56.25%; 
+	position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#backToHome{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 60px;
+	color: black;
+	background-color: #9fb19e;
+	border: none;
+	font-size: 20px;
+}
+#backToHome:hover{
+	
+	color: white;
+	background-color: #9fb19e;
+}
+
+#backToHome h3{
+	margin: 0;
+}
+
+
