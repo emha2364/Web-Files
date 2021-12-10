@@ -6,36 +6,36 @@
 		overflow-x: hidden;
 		margin: 0;
 	}
-	
+
 	.fullContainer{
 		width: 100vw;
 		height: 100vh;
 	}
-	
+
 	h1{
 		font-family: roboto-condensed,sans-serif;
 		font-weight: 300;
 		font-style: normal;
 	}
-	
+
 	h2{
 		font-family: roboto-condensed, sans-serif;
 		font-weight: 700;
 		font-style: normal;
 	}
-	
+
 	h3{
 		font-family: roboto-condensed,sans-serif;
 		font-weight: 300;
 		font-style: italic;
 	}
-	
+
 	h4{
 		font-family: roboto-condensed,sans-serif;
 		font-weight: 400;
 		font-style: italic;
 	}
-	
+
 	p{
 		font-family: roboto-condensed,sans-serif;
 		font-weight: 400;
@@ -43,24 +43,24 @@
 	}
 
 .nameTitle{
-	position: absolute; 
+	position: absolute;
 	font-size: 100px;
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
-	
+
 	.categoryLink{
-		
+
 		background-color: black;
 		display: flex;
 		color: white;
 		align-items: center;
 		justify-content: center;
-		
+
 		border: 5px solid #04C000;
 		font-size: 24px;
-		
+
 	}
-	
+
 	*, *::before, *::after {
 	  box-sizing: border-box;
 	}
@@ -73,13 +73,13 @@ button{
 		background-color: black;
 		border: none;
 		border-radius: 100px;
-	width: 100px; 
+	width: 100px;
 	height: 100px;
 	display: flex;
 	padding: 0;
 	justify-content: center;
 	align-items: center;
-	
+
 }
 
 #nextButton:hover{
@@ -101,10 +101,43 @@ button{
 	background-image: url("assets/right-arrow-white.png");
 }
 
+#backButton{
+		background-color: black;
+		border: none;
+		border-radius: 100px;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+
+}
+
+#backButton:hover{
+	background-color: #9fb19e;
+}
+
+#backButton div{
+	background-image: url("assets/left-arrow-green.png");
+	background-size: contain;
+	-o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+#backButton:hover div{
+	background-image: url("assets/left-arrow-white.png");
+}
+
 .pageTitle{
-	font-size: 40px; 
+	font-size: 40px;
 	margin-right: 25px;
-	
+
 }
 
 .assetContainer {
@@ -142,7 +175,7 @@ button{
 }
 
 .videoColumn div{
-	padding-bottom: 56.25%; 
+	padding-bottom: 56.25%;
 	position: relative;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -162,7 +195,7 @@ button{
 	font-size: 20px;
 }
 #backToHome:hover{
-	
+
 	color: white;
 	background-color: #9fb19e;
 }
@@ -170,5 +203,3 @@ button{
 #backToHome h3{
 	margin: 0;
 }
-
-

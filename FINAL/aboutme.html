@@ -5,34 +5,39 @@
 <title>About Me</title>
 	<link rel="stylesheet" href="style.css">
 </head>
-	
+
 
 <body>
-	
+
 	<div style="display: flex; align-items: center; padding-left: 50px; padding-top: 50px;">
 	<h1 class="pageTitle">about me</h1>
 	  <button id="nextButton"><div></div></button>
+		<button id="backButton"><div></div></button>
 	</div>
-	
+
 	<p style="width: 100%; padding-left: 10%; padding-right: 10%; margin-top: 50px; line-height: 40px;">
 	My name is Emma Harris and I’m a student studying Media Production with a minor in Technology Arts and Media at the University of Colorado Boulder. I’m originally from Knoxville, Tennessee but was inspired to move to Colorado to pursue my passions in Videography and Photography. Currently, I’m employed at Boulder Media House, which I started as an intern in August 2020. Since working at BMH, I have expanded my skills in both of these subjects, finding myself mostly focused on wedding films. In my free time, I like to continue to challenge myself creatively by working on styled shoots, shooting concerts, and helping my friends with shooting photos for their small businesses. </p>
-	
-	
+
+
 	<div class="backToHomeContainer">
 		<button id="backToHome"><h3>back to home</h3></button>
 	</div>
-	
+
 <script>
-	
+
 	document.getElementById("backToHome").onclick = function(){
 		window.location.href = "index.html";
 	};
-	
+
 	document.getElementById("nextButton").onclick = function(){
 		window.location.href = "resume.html";
 	};
 
-	
+	document.getElementById("backButton").onclick = function(){
+		window.location.href = "videography.html";
+	};
+
+
 </script>
 </body>
 </html>
